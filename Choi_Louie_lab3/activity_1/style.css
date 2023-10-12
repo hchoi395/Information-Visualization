@@ -1,0 +1,21 @@
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+#homerun-table thead {
+    background-color: lightgray;
+}
+
+.td-rank {
+    text-align: center;
+}
+
+.td-homerun {
+    text-align: center;
+}
+

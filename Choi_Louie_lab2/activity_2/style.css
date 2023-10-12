@@ -1,0 +1,66 @@
+body {
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.big-hr {
+    border: 5px solid black;
+}
+
+.character-div {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.character-name {
+    padding-right: 20px;
+    color: blue;
+}
+
+.character-house {
+    padding-right: 20px;
+    color: violet;
+}
+
+.character-survival {
+    padding-right: 20px;
+    color: purple;
+}
+
+.character-status {
+    color: darkcyan;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    padding-left: 30px;
+}
+
+.li-name {
+    color: blue;
+}
+
+.li-house {
+    color: violet;
+}
+
+.li-survival {
+    color: purple;
+}
+
+.li-status {
+    color: darkcyan;
+}

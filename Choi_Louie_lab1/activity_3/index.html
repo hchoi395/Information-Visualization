@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 0 - Activity 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<div>
+		<svg id="single-bar">
+			<rect x=175 y=49 width=50 height=250 fill="steelblue"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="bar-chart">
+			<rect x=1 y=149 width=48 height=150 fill="steelblue"></rect>
+			<rect x=51 y=74 width=48 height=225 fill="steelblue"></rect>
+			<rect x=101 y=74 width=48 height=225 fill="steelblue"></rect>
+			<rect x=151 y=-1 width=48 height=300 fill="steelblue"></rect>
+			<rect x=201 y=-1 width=48 height=300 fill="steelblue"></rect>
+			<rect x=251 y=74 width=48 height=225 fill="steelblue"></rect>
+			<rect x=301 y=74 width=48 height=225 fill="steelblue"></rect>
+			<rect x=351 y=149 width=48 height=150 fill="steelblue"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="line-chart">
+			<line x1="1" y1="150" x2="51" y2="75"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="51" y1="75" x2="101" y2="75"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="101" y1="75" x2="151" y2="0"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="151" y1="0" x2="201" y2="0"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="201" y1="0" x2="251" y2="75"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="251" y1="75" x2="301" y2="75"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+			<line x1="301" y1="75" x2="351" y2="150"
+			style="stroke: steelblue; fill: none; stroke-width: 3px;"/>
+		</svg>
+	</div>
+
+	<div class="circle">
+        <svg id="pie-chart">
+        	<circle cx="200" cy="150" r="140" fill="transparent" stroke="black" stroke-width="3" />
+			<path d="M200,150 L200,10 A140,140 0 0,1 340,150 Z" fill="green" />
+            <path d="M200,150 L340,150 A140,140 0 1,1 200,10 Z" fill="yellow" />
+        </svg>
+    </div>
+
+</body>
+
+</html>
